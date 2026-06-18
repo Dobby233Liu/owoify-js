@@ -1,20 +1,17 @@
 {
-  "name": "owoify-js",
-  "version": "2.0.0",
+  "name": "@lwys-pkg-releaser/owoify-js",
+  "version": "2.0.0+owoiki-patch1",
   "description": "owoifier: JS Boogaloo Edition",
   "keywords": [
     "owo",
     "owoifier",
     "hell"
   ],
-  "repository": "git@github.com:mohan-cao/owoify-js.git",
-  "bugs": {
-    "url": "https://github.com/mohan-cao/owoify-js/issues"
-  },
-  "homepage": "https://github.com/mohan-cao/owoify-js/",
+  "repository": "git@github.com:Dobby233Liu/owoify-js.git",
+  "homepage": "https://github.com/Dobby233Liu/owoify-js",
   "private": false,
   "license": "MIT",
-  "author": "mohan-cao <mohancao@yahoo.com.au>",
+  "author": "mohan-cao <mohancao@yahoo.com.au>, Liu Wenyuan <15816141883@163.com>",
   "main": "dist/index.js",
   "module": "dist/owoify-js.esm.js",
   "typings": "dist/index.d.ts",
