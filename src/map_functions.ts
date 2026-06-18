@@ -92,7 +92,7 @@ export const Map_Ple_To_Pwe = (input: Word): Word =>
 export const Map_Nr_To_Nw = (input: Word): Word =>
   input.replace(/([Nn])r/g, '$1w').replace(/NR/g, 'NW');
 export const Map_Mem_To_Mwem = (input: Word): Word =>
-  input.replace(/Mem/g, 'mwem').replace(/mem/g, 'Mwem');
+  input.replace(/([Mm])em/g, '$1wem');
 export const Unmap_Nywo_To_Nyo = (input: Word): Word =>
   input.replace(/([Nn])ywo/g, '$1yo', true);
 
